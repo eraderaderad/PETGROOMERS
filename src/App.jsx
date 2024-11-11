@@ -5,6 +5,9 @@
 // import Home from "./components/Home"
 import Hero from "./components/Hero";
 import Shopprev from "./components/Shopprev";
+import Preview from "./components/Preview";
+import About from "./About";
+// import {Link} from "react-router-dom";
 
 function App() {
   return (
@@ -26,7 +29,7 @@ function App() {
                   <a className="text-xl block">Guides</a>
                 </li>
                 <li>
-                  <a className="text-xl block">About us</a>
+                  <a href={"./About.jsx"}>About</a>
                 </li>
               </ul>
             </div>
@@ -41,7 +44,7 @@ function App() {
           </div>
         </section>
         <div>
-
+          <Preview/>
         </div>
       </main>
   );

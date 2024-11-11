@@ -10,7 +10,7 @@ export default function Hero() {
                         Our grooming products are designed to bring you the ultimate comfort and confidence, 
                         so you can look and feel your best, no matter where life takes you.</h2>
                 </div>
-                
+                    
             </div>
             <div className="relative">
                     <img src="dog.png" className="w-2/5 h-auto absolute inset-y-0 -top-96 right-44 " />
